@@ -7777,7 +7777,7 @@ Tabs.Misc:AddButton({
 		for k, v in pairs(cac) do
 			if ListHuhu[v] and game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Buy" .. v, true) == 1 then
 				local huhu = Instance.new("ImageLabel", MeleeG)
-				huhu.Image = "rbxassetid://9945562382"
+				huhu.Image = "rbxassetid://17477740363"
 				huhu.ImageRectSize = Vector2.new(100, 100)
 				huhu.ImageRectOffset = ListHuhu[v] * 100
 			end
